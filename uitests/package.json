@@ -1,0 +1,27 @@
+{
+  "name": "uitests",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "format": "eslint --fix .",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
+  },
+  "author": "qa",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "axios": "^0.24.0",
+    "eslint": "^8.14.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.21.1"
+  },
+  "peerDependencies": {
+    "axios": ">= 0.24.0"
+  }
+}
