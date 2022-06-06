@@ -17,12 +17,12 @@ npm install
 npm run test
 ```
 
-In Docker,
+To test in Ubuntu with docker, run
 ```
 docker run --rm -it -v $(pwd):/opt/tests -p 9323:9323 ubuntu:20.04
-
 ```
 
+And in the container,
 ```
 apt update
 apt install -y curl
