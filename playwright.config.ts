@@ -74,9 +74,15 @@ const config: PlaywrightTestConfig = {
     //   },
     // },
     {
-      name: "mobile",
+      name: "iPhone12",
       use: {
         ...devices["iPhone 12"],
+      },
+    },
+    {
+      name: "iPhone11",
+      use: {
+        ...devices["iPhone 11"],
       },
     },
 
