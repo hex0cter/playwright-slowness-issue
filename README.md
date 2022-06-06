@@ -1,4 +1,4 @@
-# ms-playwright-issue
+# playwright timeout on iPhone 12/Ubuntu 20.04
 
 ## Test environment:
 ```
