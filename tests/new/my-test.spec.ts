@@ -7,5 +7,6 @@ test("my test example", async ({ page }) => {
   await expect(page).toHaveURL(/new\/sign/);
 
   const checkbox: Locator = page.locator("input[type=checkbox]");
+  // await checkbox.waitFor();
   await expect(checkbox).toBeVisible();
 });
